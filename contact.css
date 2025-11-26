@@ -1,0 +1,250 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+.header {
+    background: url("/cont.jpg") center/cover no-repeat;
+    color: #fff;
+    padding-bottom: 120px;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.logo {
+    font-size: 3em;
+}
+
+.nav-links {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.sign-in {
+    background: transparent;
+    border: 1px solid white;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 160px;
+}
+
+.hero h1 {
+    font-size: 15em;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.hero p {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+/* Map */
+.map {
+    background: url("map.png") center/cover no-repeat;
+    width: 80%;
+    height: 600px;
+    margin-left: 10%;
+    margin-top: 200px;
+    border-radius: 40px;
+}
+
+/* Contact */
+.contact {
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.qeebtaform{
+    display: flex;
+    flex-direction: column;
+}
+
+.qeebtaform h2 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #4a90e2;
+}
+
+#mass {
+    width: 630px;
+    height: 243px;
+    border: 1px solid #9acaea;
+    border-radius: 4px;
+    padding: 12px 15px;
+    font-size: 1em;
+    color: #4a90e2;
+    outline: none;
+    margin-top: 40px;
+}
+
+#name {
+    width: 315px;
+    height: 50px;
+    border: 1px solid #9acaea;
+    border-radius: 4px;
+    padding: 12px 15px;
+    font-size: 1em;
+    color: #4a90e2;
+    outline: none;
+    margin-top: 20px;
+}
+
+#email {
+    width: 315px;
+    height: 50px;
+    border: 1px solid #9acaea;
+    border-radius: 4px;
+    padding: 12px 15px;
+    font-size: 1em;
+    color: #4a90e2;
+    outline: none;
+    margin-top: 20px;
+}
+
+#sub {
+    width: 630px;
+    height: 50px;
+    border: 1px solid #9acaea;
+    border-radius: 4px;
+    padding: 12px 15px;
+    font-size: 1em;
+    color: #4a90e2;
+    outline: none;
+    margin-top: 20px;
+}
+
+button {
+    width: max-content;
+    padding: 12px 28px;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.contact-info{
+    margin-top: 70px;
+    color: #4998d2;
+    
+}
+.info-item{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 30px;
+}
+.info-item i{
+    font-size: 34px;
+    color: #717276;
+}
+.info-item p{
+    padding-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #4998d2;
+    width: 100%;
+    height: 290px;
+    color: white;
+    padding: 20px 30px 15px;
+    margin-top: 200px;
+}
+
+.footer-kor {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    padding-top: 80px;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 3.8rem;
+    font-size: 1.1rem;
+    justify-content: center;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1.8rem;
+    font-size: 3rem;
+}
+
+.social-icons a {
+    color: white;
+}
+
+
+hr {
+    width: 84%;
+    margin-left: 8%;
+}
+
+.footer-hoos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #f9f9f9;
+    gap: 40px;
+    padding-top: 40px;
+}
+
+.footer-right {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.footer-right a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-right span {
+    color: #d6def9;
+}

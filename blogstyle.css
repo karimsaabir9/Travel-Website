@@ -1,0 +1,301 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+.header {
+    background:url("/blog.jpg") center/cover no-repeat;
+    color: #fff;
+    padding-bottom: 120px;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.logo {
+    font-size: 3em;
+}
+
+.nav-links {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.sign-in {
+    background: transparent;
+    border: 1px solid white;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 160px;
+}
+
+.hero h1 {
+    font-size: 13.1em;
+    font-weight: 700;
+}
+
+/* Adventure */
+
+
+.photo-section {
+    width: 1200px;
+    height: 330px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.yaryar {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.yaryar img {
+    flex: 1;
+    max-width: calc((100% - 45px) / 4);
+    border-radius: 20px;
+    height: 200px;
+}
+/* Blog */
+.blog {
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.blog h1 {
+    font-size: 48px;
+    padding-bottom: 14px;
+    color: #4998d2;
+    text-transform: uppercase;
+}
+
+.blog p {
+    font-size: 32px;
+    font-weight: 200;
+    color: #7ba7d7;
+}
+
+.blogGrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.blog1 {
+    width: 590px;
+    height: 556px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url('/dalxiis.jpg') center center/cover no-repeat;
+    border-radius: 30px;
+}
+
+.blogcont {
+    margin: 250px auto;
+    padding-left: 6%;
+    color: white;
+}
+
+.blogcont #t {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.blogcont h2 {
+    font-size: 2.5em;
+    width: 350px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sawirYar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sawirYar img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 2px solid #379af4;
+    background-color: #fff;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.mgc {
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.date {
+    font-size: 0.95rem;
+    color: #ffffff;
+    padding-top: 3px;
+}
+
+.blog2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sawir1 {
+    width: 590px;
+    height: 268px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('/mt-kilimanjaro.jpg') center center/cover no-repeat;
+    border-radius: 30px;
+}
+
+.swr1cont {
+    margin: 90px auto;
+    padding-left: 6%;
+    color: white;
+}
+
+.swr1cont #g {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.swr1cont h2 {
+    font-size: 2em;
+    width: 350px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sawir2 {
+    width: 590px;
+    height: 268px;
+    background: url('/nin.jpg') center center/cover no-repeat;
+    border-radius: 30px;
+}
+
+.swr2cont {
+    margin: 90px auto;
+    padding-left: 6%;
+    color: white;
+}
+
+.swr2cont #i {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.swr2cont h2 {
+    text-transform: capitalize;
+    font-size: 2em;
+    width: 320px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #4998d2;
+    width: 100%;
+    height: 290px;
+    color: white;
+    padding: 20px 30px 15px;
+}
+
+.footer-kor {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    padding-top: 80px;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 3.8rem;
+    font-size: 1.1rem;
+    justify-content: center;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1.8rem;
+    font-size: 3rem;
+}
+
+.social-icons a {
+    color: white;
+}
+
+
+hr {
+    width: 84%;
+    margin-left: 8%;
+}
+
+.footer-hoos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #f9f9f9;
+    gap: 40px;
+    padding-top: 40px;
+}
+
+.footer-right {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.footer-right a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-right span {
+    color: #d6def9;
+}
